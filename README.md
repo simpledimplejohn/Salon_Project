@@ -1,2 +1,2 @@
-Added
-added
+Procedure:
+First build database with names correct
