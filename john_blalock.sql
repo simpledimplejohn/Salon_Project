@@ -21,6 +21,7 @@
 
 LOCK TABLES `clients` WRITE;
 /*!40000 ALTER TABLE `clients` DISABLE KEYS */;
+INSERT INTO `clients` VALUES (1,'new',0),(2,'John client',1),(3,'susan client',1),(4,'jain client',2);
 /*!40000 ALTER TABLE `clients` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -30,6 +31,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `stylists` WRITE;
 /*!40000 ALTER TABLE `stylists` DISABLE KEYS */;
+INSERT INTO `stylists` VALUES (1,'Fred Baruber',NULL),(2,'Jain Stylist',NULL),(3,'Joe Stylist',NULL);
 /*!40000 ALTER TABLE `stylists` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -42,4 +44,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-30 15:54:56
+-- Dump completed on 2021-07-31 18:11:50
