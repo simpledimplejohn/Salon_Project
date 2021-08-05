@@ -31,7 +31,7 @@ A webapp with a database that is designed to show my ability to use ASP.Net Core
 8. _Navigate to the Administration tab_
 9. _Select Data Import/Restore_
 10. _Import the john_blalock.sql database from the root directory_
-11. _Now navigate to the root directory in the consol.
+11. _Now navigate to the root directory in the consol._
 12. _run `dotnet run` in the consol_
 13. _This should run the app on local server 5000_
 14. _Navigate to HTTP://localhost:5000_
